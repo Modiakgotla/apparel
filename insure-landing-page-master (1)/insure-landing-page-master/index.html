@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.3/tailwind.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <title>Frontend Mentor | Insure landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  
+*{
+box-sizing: border-box;
+}
+:root{
+--dark-violet: hsl(256,26%,20%)
+--greyish-blue: hsl(216,30%, 68% )
+--very-dark-violet: hsl(270,9%,17%)
+--dark-grayish-violet: hsl(273,4%,51%)
+--very-light-gray: hsl(0,0%,98%)
+}
+
+body{
+font-family: 'Maria',sans-serif;
+margin: 0;}
+
+h1,
+h2
+h3{
+font-family: 'DM Serif Display',sans-serif;}
+
+.btn{ 
+background-color: transparent;
+border: 2px solid #fff;
+padding:10 px 15px;
+color: #fff;
+}
+.btn-reverse{
+
+}
+.container{
+margin: 0 auto;
+max-width: 100%;
+width:120px;
+}
+.flex{
+display: flex;
+}
+.flex > * {
+flex: 1;
+}
+nav{
+
+}
+
+nav ul{
+display: flex;
+list-style-type: none;
+padding: 0;
+}
+nav li{
+margin-left: 30px
+}
+nav li a{
+color: var(--dark-grayish-violet);
+text-transform: uppercase;
+text-decoration: none;
+}
+
+
+header{
+background-color: var(--dark-violet);
+color: #fff;
+}
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="flex items-center justify-between p-5">
+    <div>
+
+    
+    <img class="logo" src="images/logo.svg">
+    </div>
+<div>
+  <i class="fas fa-bars"></i>
+</div>
+
+<div>
+  <img class="hamburger" src="images/icon-hamburger.svg">
+</div>
+  </header>
+
+
+
+  <nav>  
+    <div class="container">
+      <div class ="flex">
+        <img class="logo" src="images/logo.svg">
+
+        <ul>
+         <li><a href="#">How we work</a></li> 
+         <li><a href="#">Blog</a></li> 
+         <li><a href="#">Account</a></li>
+         <li><a class="btn" href="#">View plans</a></li>
+        </ul>
+    </div>
+  </div>
+  </nav>
+  <header class="header">
+    <div class="container">
+      <div class="flex align">
+
+        <div>
+      
+    
+        <h1>
+        Humanizing your insurance.
+        </h1>
+        <p>
+        Get your life insurance coverage easier and faster. We blend our expertise 
+        and technology to help you find the plan that’s right for you. Ensure you 
+        and your loved ones are protected.
+        </p>
+        </div>
+       </div>
+      </div>
+    <button class="btn">
+      View Plans
+        </button>
+    <div>
+      <img class="logo" src="images/image-intro-desktop.jpg">
+    </div>
+   </div>
+</div>
+    </header>
+  <section class="Container">
+    <h2>
+      We’re different
+    </h2>
+<div class="flex">
+
+  <div>
+    <img class="snappy" src="images/icon-snappy-process.svg">
+<h4>
+  Snappy Process
+</h4>
+<p>
+  Our application process can be completed in minutes, not hours. Don’t get 
+  stuck filling in tedious forms.
+</p>
+  </div>
+  <div>
+    <img class="prices" src="images/icon-affordable-prices.svg">
+    <h4>
+      Affordable Prices
+    </h4>
+    <p>
+      We don’t want you worrying about high monthly costs. Our prices may be low, 
+      but we still offer the best coverage possible
+    </p>
+  </div>
+  <div>
+    <img class="people" src="images/icon-people-first.svg">
+    <h4>
+      People First
+    </h4>
+    <p>
+      Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+  sure you’re covered when you need it.
+    </p>
+</div>
+
+  </section>
+
+
+<section class="container bg-violet">
+<div class="flex">
+  <div>
+
+  
+  <h2>
+    Find out more about how we work
+  </h2>
+  </div>
+  <div>
+    <button class="btn">
+      How we work
+    </button>
+  </div>
+</div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="flex">
+      <div>
+        <img class="logo" src="images/logo.svg">
+      </div>
+  </div>
+  <div>
+    <ul>
+      <li><a href=""><img src="" alt=""></a></li>
+    </ul>
+  </div>
+  <div class="flex">
+
+  </div>
+</div>
+
+</footer>
+
+
+<div>
+  <ul>
+  <li><a href="#"><img src="images/icon-facebook.svg" alt ="facebook"></a></li>
+  <li><a href="#"><img src="images/icon-twitter.svg" alt ="twitter"></a></li>
+  <li><a href="#"><img src="images/icon-pinterest.svg" alt ="pinterest"></a></li>
+  <li><a href="#"><img src="images/icon-instagram.svg" alt ="instagram"></a></li>
+  </ul>
+  </div>
+  
+  <div class="flex"> 
+  <div>
+  
+  <h3> Our Company </h3>
+  <ul>
+  <li><a href="#">How we work</a></li>
+  <li><a href="#">Why Insure?</a></li>
+  <li><a href="#">View plans</a></li>
+  <li><a href="#">Reviews</a></li>
+  </ul>
+  </div>
+  <div>
+  <h3> Help me </h3>
+  <ul>
+  <li><a href="#">FAQ</a></li>
+  <li><a href="#">Terms of use</a></li>
+  <li><a href="#">Privacy policy</a></li>
+  <li><a href="#">Cookies</a></li>
+  </ul>
+  </div>
+  <div>
+  <h3> Contact  </h3>
+  <ul>
+  <li><a href="#">Sales</a></li>
+  <li><a href="#">Support</a></li>
+  <li><a href="#">Live Chat</a></li>
+  </ul>
+  </div>
+  <div>
+  <h3> Others  </h3>
+  <ul>
+  <li><a href="#">Careers</a></li>
+  <li><a href="#">Press</a></li>
+  <li><a href="#">Licences</a></li>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
